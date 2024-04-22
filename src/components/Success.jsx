@@ -4,7 +4,7 @@ import { getImageUrl } from "../utils";
 
 function Success() {
     const { globalEmail, setIsEmailValid, setGlobalEmail } = useContext(EmailContext);
-    const tickIcon = getImageUrl("icon-list.svg");
+    const tickIcon = getImageUrl("icon-list");
 
     const handleClick = () =>{
         setIsEmailValid(false);
